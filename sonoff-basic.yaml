@@ -23,12 +23,14 @@ ota:
 
 # This should point to the public location of this yaml file.
 dashboard_import:
-  package_import_url: github://cpyarger/esphome-templates/sonoff-basic.yaml@main
+  package_import_url: https://github.com/biloba2002/esphome-template/blob/main/sonoff-basic.yaml@main
+
 
 wifi:
   # Set up a wifi access point
   ap:
-    password: "12345678"
+    ssid: "Sonoff-Basic"
+    password: "esphome"
 
 # In combination with the `ap` this allows the user
 # to provision wifi credentials to the device.
