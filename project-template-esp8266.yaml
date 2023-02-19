@@ -39,7 +39,8 @@ wifi:
 # to provision wifi credentials to the device.
 captive_portal:
 
-
+web_server:
+  port: 80
 ##########################################################
 # Most projects should not remove anything from above here
 # and should just modify the name, project name/version 
